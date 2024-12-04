@@ -1,0 +1,92 @@
+html,body,.container{
+	width:100%;
+	height:100%;
+	background:black;
+}
+.header{
+		font-family:fantasy;
+		background:grey;
+}
+ .nav{
+	padding:0px 0px;
+	display: flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	text-decoration:none;
+}
+.name{
+	font-size:24px;
+	color:lightpink;
+	weight:100;
+}
+li{
+	display:inline-block;
+	
+}
+li a{
+	font-weight:300;
+	margin-left:40px;
+	font-family:cursive;
+	color:whitesmoke;
+}
+li a:hover{
+	background:pink;
+	padding:5px 10px;
+	border-radius:15px;
+}
+.bo{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:100%;
+	padding:20px;
+	align-items:center;
+}
+.left{
+	width:50%;
+	height:100%;
+	padding-left:15px;
+	color:white;	
+}
+h1{
+	font-size:48px;
+}
+.icons{
+	width:100px;
+	height:auto;
+	display:flex;
+	justify-content: space-between;
+}
+i{
+	padding:5px;
+}
+i:hover{
+	background:goldenrod;
+	border-radius:15px;
+}
+/*
+.phead{
+	font-size:32px;
+}
+.psub{
+	font-size:64px;
+}*/
+.pbody{
+	font-size:24px;
+	font-weight:100;
+}
+.right{
+	width:400px;
+	height:400px;
+	margin-top:50px;
+	margin-left:150px;
+	border:2px solid white ;
+	border-radius:200px;
+	background: url('plf.JPEG');
+}
+.footer{
+	background: grey;
+	display:flex;
+	align-items:center;
+}
